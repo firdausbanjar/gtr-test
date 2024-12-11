@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body,
+main {
+  width: 100vh;
+  height: 100vh;
+} */
+
+.login-wrapper,
+.register-wrapper {
+  position: relative;
+}
+
+.login-form,
+.register-form {
+  z-index: 20;
+}
+
+.login-background,
+.register-background {
+  z-index: 10;
+  position: absolute;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .login-wrapper,
+  .register-wrapper,
+  .login-background,
+  .register-background {
+    position: sticky;
+  }
+
+  .login-background {
+    border-radius: 30px 0 0 30px;
+  }
+
+  .register-background {
+    border-radius: 0 30px 30px 0;
+  }
+
+  .login-form,
+  .register-form {
+    width: 40% !important;
+  }
+
+  .login-background,
+  .register-background {
+    width: 60% !important;
+  }
+}
