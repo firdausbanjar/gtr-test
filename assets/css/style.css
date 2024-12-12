@@ -26,6 +26,11 @@ main {
   position: absolute;
 }
 
+.carouser-wrapper {
+  height: 50vh;
+  object-fit: cover;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
