@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-/* body,
-main {
-  width: 100vh;
-  height: 100vh;
-} */
+.nav-pills .nav-link.active {
+  background-color: black !important;
+  color: white !important;
+}
 
 .login-wrapper,
 .register-wrapper {
